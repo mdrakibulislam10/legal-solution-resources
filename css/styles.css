@@ -1,0 +1,15 @@
+/* google fonts */
+body {
+    font-family: 'EB Garamond', serif;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+.text-legal-solution-font-family,
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-legal-solution-bg-color {
+    background-color: #B68C5A;
+    ;
+}
