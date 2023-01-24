@@ -18,6 +18,8 @@
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
     <!-- Poppins google font -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/48dd45c00b.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -129,8 +131,8 @@
                     </p>
                 </div>
 
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
-                    <div class="card py-4 rounded-0 border-top-0 border-start-0">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 px-2">
+                    <div class="card py-4 rounded-0 border-top-0 border-start-0 legal-solution-card-sm-border">
                         <img src="images/business.png" class="card-img-top w-25 mx-auto mt-3" alt="...">
                         <div class="card-body">
                             <h3 class="card-title fw-bold my-3">Business Law</h3>
@@ -143,7 +145,8 @@
                         </div>
                     </div>
 
-                    <div class="card py-4 rounded-0 border-top-0 legal-solution-card-gradient">
+                    <div
+                        class="card py-4 rounded-0 border-top-0 legal-solution-card-gradient legal-solution-card-sm-border">
                         <img src="images/criminal.png" class="card-img-top w-25 mx-auto" alt="...">
                         <div class="card-body">
                             <h3 class="card-title fw-bold my-3">Criminal Law</h3>
@@ -156,7 +159,7 @@
                         </div>
                     </div>
 
-                    <div class="card py-4 rounded-0 border-top-0 border-end-0">
+                    <div class="card py-4 rounded-0 border-top-0 border-end-0 legal-solution-card-sm-border">
                         <img src="images/child.png" class="card-img-top w-25 mx-auto mt-3" alt="...">
                         <div class="card-body">
                             <h3 class="card-title fw-bold my-3">Child Support</h3>
@@ -168,7 +171,7 @@
                         </div>
                     </div>
 
-                    <div class="card py-4 rounded-0 border-bottom-0 border-start-0">
+                    <div class="card py-4 rounded-0 border-bottom-0 border-start-0 legal-solution-card-sm-border">
                         <img src="images/education.png" class="card-img-top w-25 mx-auto mt-2" alt="...">
                         <div class="card-body">
                             <h3 class="card-title fw-bold my-3">Education Law</h3>
@@ -181,7 +184,7 @@
                         </div>
                     </div>
 
-                    <div class="card py-4 rounded-0 border-bottom-0">
+                    <div class="card py-4 rounded-0 border-bottom-0 legal-solution-card-sm-border">
                         <img src="images/divorce.png" class="card-img-top w-25 mx-auto mt-5" alt="...">
                         <div class="card-body">
                             <h3 class="card-title fw-bold my-3">Divorce Law</h3>
@@ -194,7 +197,7 @@
                         </div>
                     </div>
 
-                    <div class="card py-4 rounded-0 border-end-0 border-bottom-0">
+                    <div class="card py-4 rounded-0 border-end-0 border-bottom-0 legal-solution-card-sm-border">
                         <img src="images/tax.png" class="card-img-top w-25 mx-auto mt-3" alt="...">
                         <div class="card-body">
                             <h3 class="card-title fw-bold my-3">Tax Law</h3>
@@ -527,13 +530,55 @@
                 </div>
             </div>
         </section>
-
     </main>
 
-
     <!-- footer -->
-    <footer>
+    <footer class="mt-5 bg-dark">
+        <div class="container py-5">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gy-5 gy-lg-0 g-lg-5 mt-3 text-light">
+                <div class="text-center text-md-start">
+                    <img class="pb-4" src="images/logo.png" alt="">
+                    <p>Every country has its own laws, obey the law, do not commit crime, stay away from crime, stay
+                        away
+                        from legal complications.
+                    </p>
+                </div>
 
+                <div class="text-center text-md-start">
+                    <h4 class="fw-semibold pb-4">Useful Link</h4>
+                    <p>Homes</p>
+                    <p>About Us</p>
+                    <p>Cases</p>
+                    <p>Blog</p>
+                    <p>Contact Us</p>
+                </div>
+
+                <div class="text-center text-md-start">
+                    <h4 class="fw-semibold pb-4">Contact Now</h4>
+                    <p>555 4th 5t NW, Washington DC 20530, United States</p>
+                    <p>+88 01750 000 000 <br> +88 01750 000 000</p>
+                    <p>info@gmail.com <br> info@gmail.com</p>
+                </div>
+
+                <div
+                    class="d-flex flex-column justify-content-center justify-content-md-start align-items-center align-items-md-start">
+                    <h4 class="fw-semibold pb-4">Subscribe</h4>
+                    <p>Subscribe for our latest & Articles. We Won't Give You Spam Mails</p>
+
+                    <form action="">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control rounded py-3 legal-solution-poppins-font z-1"
+                                placeholder="Email Address" aria-label="Recipient's username"
+                                aria-describedby="button-addon2">
+                            <button
+                                class="border-0 rounded text-white fw-semibold px-4 legal-solution-btn-bg-color legal-solution-poppins-font position-relative z-2"
+                                style="right: 20px;" type="button" id="button-addon2"><i
+                                    class="fa-solid fa-paper-plane"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <!-- bootstrap js file -->
